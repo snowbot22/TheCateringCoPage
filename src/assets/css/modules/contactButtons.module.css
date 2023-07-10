@@ -1,0 +1,20 @@
+.services__buttons{
+    justify-content: center;
+    align-items: center;
+}
+.services__buttons span{
+    font-size: 2rem;
+    font-family: var(--font-secondary);
+}
+
+
+/***********************
+* MOBILE QUERIES *
+***********************/
+@media screen and (max-width:600px){
+    .services__buttons{
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 2rem;
+    }
+}

@@ -1,0 +1,119 @@
+/**************
+* FOOD ARTICLE *
+**************/
+.food__container{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.food__figure{
+    width: 35%;
+    height: 100%;
+}
+.food__text{
+    width: 40%
+}
+
+/****************
+* MERAKI ARTICLE *
+****************/
+.meraki__container{
+    height: 50rem;
+    margin: 4rem 0;
+    padding: 0rem 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    background-color: #222222a8;
+}
+.meraki__text{
+    width: 50%;
+    max-width: 80rem;
+    height: 100%;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    background-color: var(--primary-black); 
+}
+.meraki__slider{
+    width: 50%;
+    max-width: 50rem;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+}
+
+/**************
+* TABLET QUERY *
+**************/
+@media screen and (max-width:900px) and (min-width: 601px){
+    /* FOOD ARTICLE */
+    .food__container{
+        flex-flow: column nowrap;
+        gap: 2rem;
+    }
+    .food__figure{
+        width: 50%;
+        height: 25rem;
+    }
+    .food__text{
+        text-align: center;
+    }
+    /* MERAKI ARTICLE */
+     .meraki__container{
+        height: max-content;
+        display: flex;
+        flex-flow: column-reverse nowrap;
+    }
+    .meraki__text{
+        width: 90%;
+    }
+    .meraki__slider{
+        width: 90%;
+        max-width: none;
+        height: 50rem;
+    }
+}
+
+/**************
+* MOBILE QUERY *
+**************/
+@media screen and (max-width:600px){
+    /* FOOD ARTICLE */
+    .food__container{
+        flex-flow: column nowrap;
+        gap: 2rem;
+    }
+    .food__figure{
+        width: 80%;
+        height: 25rem;
+    }
+    .food__text{
+        text-align: center;
+    }
+    /* MERAKI ARTICLE */
+    .meraki__container{
+        height: max-content;
+        display: flex;
+        flex-flow: column-reverse nowrap;
+    }
+    .text__white1{
+        text-align: center;
+    }
+    .meraki__text{
+        width: 100%;
+    }
+    .meraki__slider{
+        width: 100%;
+        max-width: none;
+        height: 35rem;
+    }
+}
