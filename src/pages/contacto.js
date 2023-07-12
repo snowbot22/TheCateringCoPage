@@ -2,7 +2,7 @@ import * as React from "react"
 
 import Layout from '../components/layout'
 import {BsWhatsapp} from "react-icons/bs";
-import * as ContactoStyle from '../assets/css/modules/contacto.module.css';
+import * as ContactoStyle from '../assets/css/contacto.module.css';
 import "../assets/css/global.css"
 
 

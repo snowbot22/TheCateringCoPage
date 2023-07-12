@@ -2,6 +2,7 @@ import * as React from "react"
 import "../assets/css/global.css"
 import Header from "./Header"
 import Footer from "./Footer"
+import WsspButton from "./WsspButton"
 
 const Layout = ({ children }) => {
 
@@ -10,8 +11,11 @@ const Layout = ({ children }) => {
       <Header />
         <main>
           {children}
+      
         </main>
+        <WsspButton />
       <Footer />
+     
     </>
   )
 }

@@ -3,7 +3,7 @@ import CateringLogo from "../assets/icons/catering-logo.webp";
 import { Link } from 'gatsby';
 import { FaFacebookF,FaTiktok,FaInstagram,FaBars,FaArrowAltCircleDown } from 'react-icons/fa';
 import { AiOutlineArrowDown, AiFillCloseCircle } from "react-icons/ai";
-import * as HeaderStyle from "../assets/css/modules/header.module.css";
+import * as HeaderStyle from "../assets/css/header.module.css";
 
 const Header = () => {
  

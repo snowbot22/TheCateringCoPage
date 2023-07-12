@@ -2,10 +2,10 @@ import React from "react"
 import { Link } from "gatsby"
 import { forwardRef } from "react"
 
-import * as topStyles from "../assets/css/modules/sectionTop.module.css"
+import * as topStyles from "../assets/css/sectionTop.module.css"
 
 const SectionTop = forwardRef(
-  ({ imagePath, imageAlt, title, logo, text, buttonText,id }, ref) => {
+  ({ imagePath, imageAlt, title, logo, text, buttonText, id }, ref) => {
     function setTitle() {
       if (title) {
         return (
@@ -30,7 +30,11 @@ const SectionTop = forwardRef(
     }
 
     return (
-      <article className={topStyles.container} ref={ref} id={id ? id : "generic"}>
+      <article
+        className={topStyles.container}
+        ref={ref}
+        id={id ? id : "generic"}
+      >
         <figure className={topStyles.figure}>
           <img
             className="img--large img--cover"

@@ -5,7 +5,6 @@ import ServicesBar from "../components/ServicesBar"
 import Section from "../components/Section"
 import SectionTop from "../components/SectionTop"
 import SocialSection from "../components/SocialSection"
-import { Link } from "gatsby"
 
 function Meraki() {
   const [pos1, setPos1] = useState(0)

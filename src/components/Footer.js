@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 
 import "normalize.css";
 import "../assets/css/global.css";
-import * as FooterStyle from "../assets/css/modules/footer.module.css";
+import * as FooterStyle from "../assets/css/footer.module.css";
 
 function Footer() {
   return (

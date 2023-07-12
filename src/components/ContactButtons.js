@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import {BsWhatsapp} from "react-icons/bs";
-import * as ContactButtonsStyles from "../assets/css/modules/contactButtons.module.css";
+import * as ContactButtonsStyles from "../assets/css/contactButtons.module.css";
 
 
 function ContactButtons({orientation,color}) {

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import * as ServicesBarStyle from "../assets/css/modules/navigationBar.module.css"
+import * as ServicesBarStyle from "../assets/css/servicesBar.module.css"
 
 function ServicesBar({Services}) {
 

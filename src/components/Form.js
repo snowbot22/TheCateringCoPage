@@ -1,5 +1,5 @@
 import React from 'react';
-import * as FormStyle from '../assets/css/modules/form.module.css';
+import * as FormStyle from '../assets/css/form.module.css';
 import { useForm } from '../hooks/useForm';
 
 const initialForm = {

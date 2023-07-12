@@ -1,0 +1,35 @@
+.wsspButton{
+    position: fixed;
+    z-index: 3;
+    bottom: 4rem;
+    right: 4rem;
+}
+.figure{
+    width: 8rem;
+}
+
+/***************
+* TABLET QUERY *
+****************/
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .wsspButton{
+        bottom: 3rem;
+        right: 3rem;
+    }
+    .figure{
+        width: 6rem;
+    }
+}
+
+/***************
+* MOBILE QUERY *
+****************/
+@media only screen and (max-width: 600px) {
+    .wsspButton{
+        bottom: 2rem;
+        right: 2rem;
+    }
+    .figure{
+        width: 4rem;
+    }
+}

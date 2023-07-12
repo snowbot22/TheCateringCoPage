@@ -2,7 +2,7 @@ import React from "react"
 import { useRef,forwardRef } from "react"
 
 import ContactButtons from "./ContactButtons"
-import * as LeftStyles from "../assets/css/modules/leftarticle.module.css"
+import * as LeftStyles from "../assets/css/section.module.css"
 
 
 const SectionLeft= forwardRef(({

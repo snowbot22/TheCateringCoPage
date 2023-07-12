@@ -3,7 +3,7 @@
   height: calc(100vh - 10rem);
   min-height: 70rem;
   max-height: 90rem;
-  background-image: url("../../../images/header--1.jpg");
+  background-image: url("../../images/header--1.jpg");
   background-size: cover;
   background-position: center;
 }
