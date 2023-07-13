@@ -12,7 +12,7 @@ function ServicesBar({Services}) {
                     return <li key={"li" + index}>
                                 <button onClick={()=>{
                                   window.scrollTo(0, service.link)
-                                }} className={ServicesBarStyle.button} key={service + index} > 
+                                }} className={`${ServicesBarStyle.button} font--18`} key={service + index} > 
                                     {service.name}
                                 </button>
                            </li>
