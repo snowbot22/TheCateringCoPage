@@ -19,25 +19,25 @@ function Meraki() {
   useEffect(() => {
     let { offsetTop } = articleRef3.current
     console.log(offsetTop)
-    setPos3(offsetTop - 100)
+    setPos3(offsetTop)
   }, [])
 
   useEffect(() => {
     let { offsetTop } = articleRef2.current
     console.log(offsetTop)
-    setPos2(offsetTop - 100)
+    setPos2(offsetTop)
   }, [])
 
   useEffect(() => {
     let { offsetTop } = articleRef1.current
     console.log(offsetTop)
-    setPos1(offsetTop - 100)
+    setPos1(offsetTop)
   }, [])
 
   useEffect(() => {
     let { offsetTop } = articleRef4.current
     console.log(offsetTop)
-    setPos4(offsetTop - 100)
+    setPos4(offsetTop)
   }, [])
 
   let servicesList = [
