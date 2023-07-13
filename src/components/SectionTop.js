@@ -1,8 +1,7 @@
-import React from "react"
 import { Link } from "gatsby"
-import { forwardRef } from "react"
-
+import React ,{ forwardRef } from "react"
 import * as topStyles from "../assets/css/sectionTop.module.css"
+
 
 const SectionTop = forwardRef(
   ({ imagePath, imageAlt, title, logo, text, buttonText, id }, ref) => {

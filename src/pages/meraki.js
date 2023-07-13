@@ -1,9 +1,8 @@
-import React from "react"
-import { useRef, useState, useEffect } from "react"
 import Layout from "../components/layout"
-import ServicesBar from "../components/ServicesBar"
+import React, { useRef, useState, useEffect } from "react"
 import Section from "../components/Section"
 import SectionTop from "../components/SectionTop"
+import ServicesBar from "../components/ServicesBar"
 import SocialSection from "../components/SocialSection"
 
 function Meraki() {

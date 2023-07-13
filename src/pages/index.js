@@ -1,15 +1,14 @@
-import * as React from "react"
-import { useId } from "react"
 
 import img from "../images/index--1.jpg"
 import img2 from "../images/index--2.jpg"
+import Layout from "../components/layout"
 import merakiLogo from "../assets/icons/logo-meraki-sf--negro.png"
+import React from "react"
+import Section from "../components/Section"
 import SectionTop from "../components/SectionTop"
 import SectionMain from "../components/SectionMain"
-import Section from "../components/Section"
-import SocialSection from "../components/SocialSection"
-import Layout from "../components/layout"
 import Seo from "../components/seo"
+import SocialSection from "../components/SocialSection"
 
 import "../assets/css/global.css"
 

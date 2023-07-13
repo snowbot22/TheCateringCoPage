@@ -1,7 +1,7 @@
-import React from "react"
 import { Link } from "gatsby"
-
+import React from "react"
 import * as socialStyles from "../assets/css/socialarticle.module.css"
+
 
 function SocialSection() {
   return (

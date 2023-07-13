@@ -1,5 +1,4 @@
 import React from "react"
-
 import * as WsspStyles from "../assets/css/wsspbutton.module.css"
 import WsspImage from "../images/wsspButton.png"
 
