@@ -1,4 +1,4 @@
-import * as FooterStyle from "../assets/css/footer.module.css"
+import * as FooterStyle from "../assets/css/FooterPage.module.css"
 import { Link } from "gatsby"
 import React from "react"
 

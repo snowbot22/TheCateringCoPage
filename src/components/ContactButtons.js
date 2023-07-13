@@ -1,5 +1,5 @@
 import { BsWhatsapp } from "react-icons/bs"
-import * as ContactButtonsStyles from "../assets/css/contactButtons.module.css"
+import * as ContactButtonsStyles from "../assets/css/ContactButtonsPage.module.css"
 import { Link } from "gatsby"
 import React from "react"
 

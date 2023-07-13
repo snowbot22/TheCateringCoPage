@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React ,{ forwardRef } from "react"
-import * as topStyles from "../assets/css/sectionTop.module.css"
+import * as topStyles from "../assets/css/SectionTopPage.module.css"
 
 
 const SectionTop = forwardRef(

@@ -8,7 +8,7 @@ import {
   FaArrowAltCircleDown,
 } from "react-icons/fa"
 import { Link } from "gatsby"
-import * as HeaderStyle from "../assets/css/header.module.css"
+import * as HeaderStyle from "../assets/css/HeaderPage.module.css"
 import React, { useState } from "react"
 
 const Header = () => {

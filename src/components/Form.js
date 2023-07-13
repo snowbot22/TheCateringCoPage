@@ -1,4 +1,4 @@
-import * as FormStyle from "../assets/css/form.module.css"
+import * as FormStyle from "../assets/css/FormPage.module.css"
 import React from "react"
 import { useForm } from "../hooks/useForm"
 

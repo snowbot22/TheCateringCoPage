@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import { IoIosArrowDown } from "react-icons/io"
 import React from "react"
-import * as Main from "../assets/css/sectionMain.module.css"
+import * as Main from "../assets/css/SectionMainPage.module.css"
 
 
 function SectionMain() {

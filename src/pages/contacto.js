@@ -1,4 +1,4 @@
-import * as ContactoStyle from "../assets/css/contacto.module.css"
+import * as ContactoStyle from "../assets/css/ContactoPage.module.css"
 import { BsWhatsapp } from "react-icons/bs"
 import Layout from "../components/layout"
 import React from "react"

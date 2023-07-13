@@ -1,6 +1,6 @@
 import ContactButtons from "./ContactButtons"
 import React, { forwardRef } from "react"
-import * as LeftStyles from "../assets/css/section.module.css"
+import * as LeftStyles from "../assets/css/SectionPage.module.css"
 
 
 const SectionLeft = forwardRef(
