@@ -117,7 +117,7 @@ header {
   display: none;
   font-size: 1.8rem;
   position: absolute;
-  bottom: -16rem;
+  bottom: -18rem;
   background-color: #222;
   z-index: 4;
 }
