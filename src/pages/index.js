@@ -1,4 +1,3 @@
-
 import img from "../images/index--1.jpg"
 import img2 from "../images/index--2.jpg"
 import Layout from "../components/layout"
@@ -30,6 +29,7 @@ const IndexPage = () => (
       buttonOrientation={"col"}
       imageAlt="Imagen de una pareja"
       leftRight={"left"}
+      titleColor="title--1 lines"
     />
     <SectionTop
       imagePath={img2}
