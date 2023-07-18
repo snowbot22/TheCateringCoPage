@@ -2,6 +2,7 @@ import * as ContactoStyle from "../assets/css/ContactoPage.module.css"
 import { BsWhatsapp } from "react-icons/bs"
 import Layout from "../components/layout"
 import React from "react"
+import Seo from "../components/seo"
 
 
 function contacto() {
@@ -62,3 +63,8 @@ function contacto() {
 }
 
 export default contacto
+
+/**
+ * SEO
+ */
+export const seo = () => <Seo title="Contacto" />

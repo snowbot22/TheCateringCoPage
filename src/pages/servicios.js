@@ -3,6 +3,7 @@ import React from "react"
 import { useRef,useState,useEffect } from "react"
 import Section from "../components/Section"
 import SectionTop from "../components/SectionTop"
+import Seo from "../components/seo"
 import ServicesBar from "../components/ServicesBar"
 import SocialSection from "../components/SocialSection"
 
@@ -124,3 +125,8 @@ function Servicios() {
 }
 
 export default Servicios
+
+/**
+ * SEO
+ */
+export const Head = () => <Seo title="Servicios" />
