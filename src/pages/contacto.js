@@ -67,4 +67,4 @@ export default contacto
 /**
  * SEO
  */
-export const seo = () => <Seo title="Contacto" />
+export const Head = () => <Seo title="Contacto" />

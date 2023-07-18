@@ -16,4 +16,4 @@ export default cotiza
 /**
  * SEO
  */
-export const seo = () => <Seo title="Formulario Cotización" />
+export const Head = () => <Seo title="Formulario Cotización" />

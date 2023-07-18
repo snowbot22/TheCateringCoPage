@@ -39,7 +39,8 @@ function Seo({ description, title, children,ogImage }) {
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={metaDescription} />
       <meta property="og:title" content="The Catering Co" />
-      <meta property="og:image:secure_url" content="https://i.pinimg.com/564x/d1/bf/18/d1bf18a91a4397bb4e512772e1de34df.jpg"  />
+      <meta property="og:image" content="https://i.pinimg.com/564x/d1/bf/18/d1bf18a91a4397bb4e512772e1de34df.jpg" />
+      <meta property="og:description" content={metaDescription} />
       {children}
     </>
   )
