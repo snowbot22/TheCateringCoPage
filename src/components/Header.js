@@ -36,7 +36,8 @@ const Header = () => {
     <header>
       <button
         className={`${HeaderStyle.header__menu} cursor--pointer`}
-        onClick={handleMenu}
+        onClick={handleMenu} 
+        aria-label="Menu toggle"
       >
         <FaBars />
       </button>
@@ -273,6 +274,7 @@ const Header = () => {
             <a
               href="https://www.facebook.com/TheCateringCoQuito"
               className={HeaderStyle.header__social}
+              aria-label="Facebook"
             >
               <FaFacebookF />
             </a>
@@ -281,6 +283,7 @@ const Header = () => {
             <a
               href="https://www.instagram.com/thecatering.co/"
               className={HeaderStyle.header__social}
+              aria-label="Instagram"
             >
               <FaInstagram />
             </a>
@@ -289,6 +292,7 @@ const Header = () => {
             <a
               href="https://www.tiktok.com/@merakibrunchyeventos?lang=es"
               className={HeaderStyle.header__social}
+              aria-label="TikTok"
             >
               <FaTiktok />
             </a>
