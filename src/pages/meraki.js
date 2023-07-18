@@ -2,6 +2,7 @@ import Layout from "../components/layout"
 import React, { useRef, useState, useEffect } from "react"
 import Section from "../components/Section"
 import SectionTop from "../components/SectionTop"
+import Seo from "../components/seo"
 import ServicesBar from "../components/ServicesBar"
 import SocialSection from "../components/SocialSection"
 
@@ -117,3 +118,8 @@ function Meraki() {
 }
 
 export default Meraki
+
+/** 
+ * SEO
+ */
+export const Head = () => <Seo title={"Meraki Brunch & Events"}/>
