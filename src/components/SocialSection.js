@@ -9,7 +9,7 @@ function SocialSection() {
       <figure className={socialStyles.figure}>
         <img
           className="img--large img--cover"
-          src="https://placehold.co/600x400/555/white"
+          src="https://placehold.co/555/white"
           alt="Gente en una fiesta"
         />
       </figure>
