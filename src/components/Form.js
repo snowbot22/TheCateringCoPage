@@ -1,4 +1,5 @@
 import * as FormStyle from "../assets/css/FormPage.module.css"
+import Loading from "../images/loading.gif"
 import React from "react"
 import { useForm } from "../hooks/useForm"
 
@@ -18,6 +19,8 @@ const validationsForm = form => {
   let regexName = /^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$/
   let regexEmail = /^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$/
   let regexPhone = /^0[0-9]{9}$/
+  const today = new Date();
+  
 
   //VALIDATIONS
   if (!form.name.trim()) {
@@ -45,7 +48,7 @@ const validationsForm = form => {
   if (!form.guests.trim()) {
     errors.guests = "El numero de invitados es obligatorio"
   }
-
+ 
   //RETURN
   return errors
 }
@@ -132,6 +135,7 @@ function Form() {
             onBlur={handleBlur}
             onChange={handleChange}
           >
+            <option value="default" >Elije el tipo de evento aqui</option>
             <option value="boda">Boda</option>
             <option value="bautizo">Bautizo</option>
             <option value="cumpleaños">Cumpleaños</option>
@@ -159,11 +163,13 @@ function Form() {
           <label htmlFor="guests">Número de Invitados</label>
           <input
             type="number"
+            min={10}
+            max={1000}
             name="guests"
             id="guests"
             placeholder="Escribe el número de invitados aqui"
             value={form.guests}
-            onBlur={handleBlur}
+            onSubmit={handleBlur}
             onChange={handleChange}
           />
           {errors.guests && (
@@ -171,18 +177,19 @@ function Form() {
           )}
         </div>
         <div className={FormStyle.form__group}>
-          <label htmlFor="">Locación del Evento</label>
+          <label htmlFor="location">Locación del Evento</label>
           <select
             name="location"
             id="location"
             value={form.location}
             onBlur={handleBlur}
             onChange={handleChange}
+            defaultValue={"meraki"}
           >
-            <option value="merakiC">Meraki Cumbaya</option>
-            <option value="merakiO">Meraki Ontaneda</option>
-            <option value="quinta">Quinta Recomendada</option>
-            <option value="propio">Lugar Propio</option>
+            <option value="default">Elije la locación de tu evento aqui</option>
+            <option value="meraki">Meraki Ontaneda</option>
+            <option value="quinta recomendada">Quinta Recomendada</option>
+            <option value="lugar propio">Lugar Propio</option>
           </select>
         </div>
         <button
@@ -192,6 +199,13 @@ function Form() {
           Enviar
         </button>
       </form>
+      <article>
+        {loading && (
+          <figure className={FormStyle.form__loading}>
+            <img className="img--large" src={Loading} alt="loading" />
+          </figure>
+        )}
+      </article>
       <article>
         {response && (
           <p className={FormStyle.form__response}>

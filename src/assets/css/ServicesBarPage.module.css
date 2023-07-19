@@ -27,19 +27,20 @@
     cursor: pointer;
     text-align: center;
 }
-.button{
-    width:100%;
+.services__bar__link{
+    width: 100%;
     height: 100%;
-    cursor: pointer;
-    border: none;
-    background-color: transparent;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
     color: var(--primary-white);
-    transition: all 0.3s ease;
+    font-size: 2rem;
+    font-weight: 600;
 }
 /*****************
 * HOVER EFFECTS *
 *****************/
-.button:hover{
+.services__bar__link:hover{
     background-color: var(--primary-white);
     color: var(--primary-black);
     transition: all 0.3s ease;
