@@ -16,6 +16,14 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.thecateringco.events',
+        sitemap: 'https://www.example.com/sitemap.xml',
+        policy: [{userAgent: '*', allow: '/'}]
+      }
+    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
